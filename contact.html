@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Web Developer Portfolio</title>
+  
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <h1 class="site-title">Zaki Dev Portfolio</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="contact-flex-container">
+      
+      <section class="contact-info">
+        <h2>Get In Touch</h2>
+        <p class="contact-intro">Have a project in mind, want to collaborate, or just want to tell me my CSS looks okay? Fill out the form below. Don't worry—it triggers a mailto: link because building a real form backend is a problem for future-semester me.</p>
+        
+        <img src="https://picsum.photos/id/370/600/350" alt="Desk setup with email and contact icons" class="responsive-img">
+      </section>
+
+      <!-- Contact Form using mailto: GET action -->
+      <section class="contact-form-wrapper">
+        <form action="mailto:zakihero236@gmail.com" method="GET" enctype="text/plain">
+          
+          <div class="form-group">
+            <label for="email">Your Email Address <span class="required-star">*</span></label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="name@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="body">Your Message <span class="required-star">*</span></label>
+            <textarea id="body" name="body" class="form-control" placeholder="Type your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Send Email</button>
+        </form>
+      </section>
+
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Zaki Dev Portfolio. Pics dev not AI .</p>
+  </footer>
+
+</body>
+</html>
