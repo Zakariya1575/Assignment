@@ -46,7 +46,6 @@ a:hover {
   color: var(--primary-hover);
 }
 
-/* Header & Navigation */
 .site-header {
   background-color: var(--bg-dark);
   color: var(--text-light);
@@ -89,14 +88,12 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Active Page Indicator (VG Requirement) */
 .main-nav a.active {
   background-color: var(--primary-color);
   color: #ffffff;
   font-weight: 600;
 }
 
-/* Footer */
 .site-footer {
   background-color: var(--bg-dark);
   color: var(--text-muted);
