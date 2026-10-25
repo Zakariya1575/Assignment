@@ -20,7 +20,6 @@
   color: #cbd5e1;
 }
 
-/* Extra utility classes to replace inline styles */
 .text-spacing {
   margin-top: 1rem;
 }
@@ -34,7 +33,6 @@
   color: red;
 }
 
-/* Responsive Images (VG Requirement) */
 .responsive-img {
   max-width: 100%;
   height: auto;
@@ -43,7 +41,6 @@
   object-fit: cover;
 }
 
-/* Project Cards */
 .card {
   background-color: var(--card-bg);
   border: 1px solid var(--border-color);
@@ -72,7 +69,6 @@
   font-size: 0.95rem;
 }
 
-/* Contact Form (G & VG Requirement) */
 .form-group {
   margin-bottom: 1.25rem;
 }
